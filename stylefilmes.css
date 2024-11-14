@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(165, 255, 195);
+    background-color: rgb(181, 165, 255);
     text-align: center;
 }
 
 .titulo {
     color: white;
     text-shadow: 1px 1px black;
+    padding-top: 100px;
 }
 
 .tabela {
@@ -17,4 +18,61 @@ body {
 th,td {
     border: 2px solid black;
     padding: 15px;
+}
+
+img{
+    width: 80px ;
+    height: 100px;
+}
+
+.header{
+    padding: 5px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.links{
+    display: inline;
+    margin-left: 55%;
+}
+
+.links a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    padding: 3px;
+}
+
+.links a:hover{
+    color: #e605d3;
+    border-top: 2px solid #e605d3;
+    border-bottom: 2px solid #e605d3;
+}
+
+.span-1,.span-2{
+    font-weight: bold;
+    font-size: x-large;
+}
+.span-1{
+    color: #85037a;
+}
+
+.span-2{
+    color:#e605d3;
+}
+
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(222, 222,217);
+    width:100% ;
+    margin: auto  0 0 0;
+    padding: 20px;
+    position:sticky;
+    bottom: 0;
+    z-index: 1;
 }
