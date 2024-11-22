@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(181, 165, 255);
+    background-color: rgb(165, 166, 255);
     text-align: center;
 }
 
 .titulo {
-    color: white;
+    color: rgb(150, 107, 230);
     text-shadow: 1px 1px black;
     padding-top: 100px;
 }
@@ -13,6 +13,8 @@ body {
     margin: 0 auto;
     border-collapse: 0;
     margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px
 }
 
 th,td {
